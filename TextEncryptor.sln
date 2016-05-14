@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEncryptor", "TextEncryptor\TextEncryptor.csproj", "{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A205EE28-B5FB-4A0E-AB7A-AC41F9F2630E}"
+	ProjectSection(SolutionItems) = preProject
+		Libs\Zemna.Security.dll = Libs\Zemna.Security.dll
+	EndProjectSection
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "TextEncryptorSetup", "TextEncryptorSetup\TextEncryptorSetup.isproj", "{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933} = {9C20EB8A-57DB-4074-A76C-3DC20D5B3933}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{9C20EB8A-57DB-4074-A76C-3DC20D5B3933}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.Debug|Any CPU.ActiveCfg = DVD-5
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.DVD-5|Any CPU.Build.0 = DVD-5
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.Release|Any CPU.ActiveCfg = SingleImage
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.Release|Any CPU.Build.0 = SingleImage
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{6CF4FB40-E6AB-4B7D-8BFF-256E57505297}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
