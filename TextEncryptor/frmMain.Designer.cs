@@ -43,9 +43,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(11, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Connection String";
+            this.label1.Text = "Text";
             // 
             // tbConnStr
             // 
@@ -126,7 +126,7 @@
             this.KeyPreview = true;
             this.MinimumSize = new System.Drawing.Size(400, 200);
             this.Name = "frmMain";
-            this.Text = "Zemna Text Encryptor";
+            this.Text = "Text Encryptor";
             this.ResumeLayout(false);
             this.PerformLayout();
 

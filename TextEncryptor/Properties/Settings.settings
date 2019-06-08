@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="help_url" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">http://sw.zemna.net/windows/text-encryptor</Value>
+      <Value Profile="(Default)">http://zemna.github.io/TextEncryptor/</Value>
     </Setting>
   </Settings>
 </SettingsFile>
